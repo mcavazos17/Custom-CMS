@@ -1,32 +1,26 @@
 {
-  "name": "cms-project",
-  "version": "1.0.0",
-  "description": "A simple CMS using keystone.js",
-  "engines": {
-    "node": "10.10.0"
+  "name": "custom-cms",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "async": "2.1.4",
+    "dotenv": "4.0.0",
+    "keystone": "4.0.0-beta.5",
+    "keystone-email": "^1.1.0",
+    "lodash": "^4.13.1",
+    "nodemon": "^1.19.0",
+    "pug": "2.0.0-beta11",
+    "stylus": "0.54.5"
   },
-  "main": "keystone.js",
+  "devDependencies": {
+    "eslint": "3.15.0",
+    "eslint-config-keystone": "3.0.0",
+    "eslint-plugin-react": "^5.1.1"
+  },
   "scripts": {
+    "lint": "eslint .",
     "start": "node keystone.js",
     "server": "nodemon keystone.js",
-    "compile": "webpack --config webpack.config.js"
-  },
-  "author": "Group 1",
-  "license": "ISC",
-  "devDependencies": {
-    "@babel/cli": "^7.4.3",
-    "@babel/core": "^7.4.3",
-    "@babel/preset-env": "^7.4.3",
-    "@babel/preset-react": "^7.0.0",
-    "babel-loader": "^8.0.5",
-    "nodemon": "^1.18.10",
-    "webpack": "^4.29.6",
-    "webpack-cli": "^3.3.0"
-  },
-  "dependencies": {
-    "keystone": "^4.0.0",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "underscore": "^1.9.1"
+    "compile": "stylus -w public/styles/site.styl -o public/styles/site.css"
   }
 }
