@@ -5,7 +5,7 @@ require('dotenv').config();
 // Require keystone
 var keystone = require('keystone');
 const key = require('./utils/keys');
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8000;
 
 // Initialise Keystone with your project's configuration.
 // See http://keystonejs.com/guide/config for available options
