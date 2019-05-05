@@ -57,7 +57,7 @@ Site_Info.add({
         type: Types.Html,
         wysiwyg: true,
         height: 500
-    },  height: 500
+    }, 
 });
 
 //Settting the default order of the columns on the admin tab

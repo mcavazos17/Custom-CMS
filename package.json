@@ -9,8 +9,7 @@
   "scripts": {
     "start": "node keystone.js",
     "server": "nodemon keystone.js",
-    "compile": "webpack --config webpack.config.js",
-    "test": "test"
+    "compile": "webpack --config webpack.config.js"
   },
   "author": "Group 1",
   "license": "ISC",
