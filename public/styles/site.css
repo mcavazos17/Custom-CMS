@@ -1109,6 +1109,7 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  padding-bottom: 2rem;
 }
 .img-rounded {
   border-radius: 6px;
