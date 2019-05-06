@@ -1210,8 +1210,10 @@ hr {
   margin-left: auto;
   margin-right: auto;
 }
-.pull-right {
-  float: right !important;
+@media (min-width: 1200px) {
+  .pull-right {
+    float: right !important;
+  }
 }
 .pull-left {
   float: left !important;
@@ -5046,6 +5048,9 @@ a.badge:focus {
   margin-bottom: 30px;
   color: inherit;
   background-color: #eee;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
 }
 .jumbotron h1,
 .jumbotron .h1 {
@@ -6736,4 +6741,23 @@ button.close {
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   padding-bottom: 1rem;
+}
+.body-background {
+  background-size: cover;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+.about-me {
+  margin-left: 1.2rem;
+}
+.profile-img {
+  border-radius: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
 }
