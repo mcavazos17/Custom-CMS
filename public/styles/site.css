@@ -1109,7 +1109,6 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
-  padding-bottom: 5rem;
 }
 .img-rounded {
   border-radius: 6px;
@@ -6729,4 +6728,12 @@ button.close {
   display: block;
   max-width: 100%;
   height: auto;
+  padding-bottom: 2rem;
+}
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  padding-bottom: 1rem;
 }
