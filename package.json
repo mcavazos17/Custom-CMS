@@ -9,7 +9,7 @@
     "keystone-email": "^1.1.0",
     "lodash": "^4.13.1",
     "nodemon": "^1.19.0",
-    "pug": "2.0.0-beta11",
+    "pug": "3.0.1",
     "stylus": "0.54.5"
   },
   "engines": {
